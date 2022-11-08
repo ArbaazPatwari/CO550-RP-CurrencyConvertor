@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Currency Converter";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Currency Converter</h1>
+    <h3>By Arbaaz Patwari</h3>
+    <p>This web app converts a value in Pounds (GBP) to Euros (EUR)</p>
+</div>
+
+<section>
+    <form method="POST">
+        <div>GBP Input: <input type="number" asp-for="euros" /></div>
+        <input type="submit" value="Convert" />
+    </form>
+</section>
+<section>
+    <p>The value in Euros is: </p>
+    <div id="result"> @this.Model.euros</div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<br />

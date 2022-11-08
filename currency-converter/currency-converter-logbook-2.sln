@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "currency-converter-logbook-2", "currency-converter-logbook-2\currency-converter-logbook-2.csproj", "{FAC3C87C-1950-4777-8E54-7A4CA1489B34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAC3C87C-1950-4777-8E54-7A4CA1489B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC3C87C-1950-4777-8E54-7A4CA1489B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC3C87C-1950-4777-8E54-7A4CA1489B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC3C87C-1950-4777-8E54-7A4CA1489B34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95638F67-3DB7-44E3-9C57-11C0C251B520}
+	EndGlobalSection
+EndGlobal
